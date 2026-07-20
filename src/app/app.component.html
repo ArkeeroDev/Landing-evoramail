@@ -1,0 +1,28 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a routerLink="/" class="logo">
+      <img src="assets/img/evoramail-logo-white.png" alt="Evoramail" height="31" />
+    </a>
+    <nav class="header-nav">
+      <a href="/#dashboard">Product</a>
+      <a href="/#slider">Service and support</a>
+      <a href="/#volume">Pricing</a>
+      <a routerLink="/contacta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <router-outlet />
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <img src="assets/img/evoramail-logo.png" alt="Evoramail" height="35" />
+    <ul class="footer-nav">
+      <li><a routerLink="/terminos-y-condiciones">Terms and conditions</a></li>
+      <li><a routerLink="/politica-de-privacidad">Privacy policy</a></li>
+      <li><a routerLink="/politica-de-cookies">Cookie policy</a></li>
+    </ul>
+  </div>
+</footer>

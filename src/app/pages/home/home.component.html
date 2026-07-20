@@ -1,0 +1,223 @@
+<section id="welcome">
+  <div class="circle"></div>
+  <img class="dots" src="assets/img/visual_points.png" alt="" />
+  <div class="container">
+    <h1>Plan your messages, optimize your strategies and scale your results.</h1>
+    <div class="subtitle">
+      Discover how to activate your customers for life in a safe and personalized way,
+      increasing the efficiency of your emails, SMS, social media, voice and WhatsApp,
+      and maximizing your sales.
+    </div>
+    <div class="action">
+      <a class="btn-evora" routerLink="/contacta">Contact us</a>
+    </div>
+  </div>
+</section>
+
+<section id="dashboard">
+  <div class="container">
+    <h2>Listen to the data and improve your delivery</h2>
+    <div class="row align-items-start">
+      <div class="col-12 col-md-6">
+        <img class="screen" src="assets/img/foto_producto.svg" alt="Product screenshot" />
+      </div>
+      <div class="col-12 col-md-6">
+        <p>
+          <strong>Maximize inbox placement</strong><br />
+          We improve the reputation of your sends across Gmail, Hotmail, Yahoo and other
+          email service providers, removing spam traps in real time and guaranteeing the
+          best deliverability of your messages to the inbox.
+        </p>
+        <p>
+          <strong>Automated delivery optimization</strong><br />
+          Reduce bounces and blocks across every mailbox provider in the world, lower costs
+          and maximize your inbox, open and click rates.
+        </p>
+        <p>
+          <strong>Delivery experts with personalized attention</strong><br />
+          We understand the needs of each ISP and assign a dedicated manager to track the
+          efficiency of your campaigns, monitoring and optimizing each one in real time.
+        </p>
+        <div class="action">
+          <a class="btn-evora" routerLink="/contacta">Contact us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="slider">
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col-12 col-md-6">
+        <div class="slide-visual">
+          <div class="slide-card" [style.background]="slide.bg"></div>
+          <div class="slide-title">{{ slide.title }}</div>
+          <img class="slide-illu" [src]="slide.illu" alt="" />
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="slide-copy">
+          <p>{{ slide.p1 }}</p>
+          <p>{{ slide.p2 }}</p>
+          <div class="indicators">
+            @for (s of slides; track $index) {
+              <button
+                type="button"
+                [attr.aria-label]="'Slide ' + ($index + 1)"
+                [style.background]="$index === currentSlide ? activeColors[$index] : 'rgba(24,28,50,.25)'"
+                (click)="goSlide($index)"
+              ></button>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="perks">
+  <div class="container">
+    <h2>Explore our additional services for an unmatched experience</h2>
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="perk-card">
+          <img src="assets/img/dm_dataclean.png" alt="DataClean" />
+          <div class="card-title">Database cleaning</div>
+          <div class="card-text">
+            We remove bounces, spam traps and other malicious addresses to improve your
+            reputation and enable optimized email marketing campaigns.
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="perk-card">
+          <img src="assets/img/dm_cdo.png" alt="CDO" />
+          <div class="card-title">Personalization</div>
+          <div class="card-text">
+            Centralize your database in our CDP, allowing you to segment and personalize
+            your email campaigns and activate them across other channels.
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="perk-card">
+          <img src="assets/img/dm_sentime.png" alt="SendTime Optimization" />
+          <div class="card-title">Send time optimization</div>
+          <div class="card-text">
+            Determine the right moment to send, optimize costs and improve the
+            effectiveness of your campaigns.
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="perk-card">
+          <img src="assets/img/dm_inbox.png" alt="InboxCheck" />
+          <div class="card-title">Inbox placement</div>
+          <div class="card-text">
+            Track results in real time across the different email service providers,
+            guaranteeing the deliverability of your campaigns.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="clients">
+  <div class="clients-wrap">
+    <div class="background">
+      <h2>Acquire new customers</h2>
+      <div class="text-1">Activate Opt-in Audiences similar to your customers and increase your sales.</div>
+      <div class="separator"></div>
+      <div class="text-2">Reduce your acquisition costs</div>
+      <div>
+        <a class="btn-evora btn-evora-light" routerLink="/contacta">Contact us</a>
+      </div>
+      <img class="demos" src="assets/img/demos.png" alt="" />
+    </div>
+  </div>
+</section>
+
+<section id="conversions">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-5">
+        <h2>
+          The power of Email Marketing in terms of Conversion Rates for your acquisition
+          campaigns.
+        </h2>
+      </div>
+      <div class="col-12 col-md-7">
+        <div class="rates">
+          <div class="rate" style="margin-left: 40px">
+            <div class="chip" style="background: #b678dc">10%</div>
+            <div class="label">Meta conversion rate</div>
+          </div>
+          <div class="rate reverse">
+            <div class="chip" style="background: #6a5af9">30%</div>
+            <div class="label">Google conversion rate</div>
+          </div>
+          <div class="rate" style="margin-left: 120px">
+            <div class="chip" style="background: #181c32">30%</div>
+            <div class="label">Email conversion rate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="volume">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-5 photo"></div>
+      <div class="col-12 col-md-7 content">
+        <form method="get" action="/contacta">
+          <input type="hidden" name="volume_from" [value]="volumeLabels[volumeFrom]" />
+          <input type="hidden" name="volume_to" [value]="volumeLabels[volumeTo]" />
+          <h2>Optimize your sending costs</h2>
+          <div class="subtitle">We improve your terms</div>
+          <div class="slider-text">Select your volume:</div>
+          <div class="labels">
+            @for (label of volumeLabels; track label) {
+              <span>{{ label }}</span>
+            }
+          </div>
+          <div class="slider-plugin">
+            <div class="range-track">
+              <div class="range-bg"></div>
+              <div
+                class="range-fill"
+                [style.left]="rangeFillLeft"
+                [style.width]="rangeFillWidth"
+              ></div>
+              <input
+                type="range"
+                min="0"
+                max="5"
+                step="1"
+                [(ngModel)]="volumeFrom"
+                name="volumeFrom"
+              />
+              <input
+                type="range"
+                min="0"
+                max="5"
+                step="1"
+                [(ngModel)]="volumeTo"
+                name="volumeTo"
+              />
+            </div>
+            <div class="range-caption">{{ volumeCaption }}</div>
+          </div>
+          <div class="action">
+            <a class="btn-evora" routerLink="/contacta" [queryParams]="{ volume_from: volumeLabels[volumeFrom], volume_to: volumeLabels[volumeTo] }">
+              Request a quote
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

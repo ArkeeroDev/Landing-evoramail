@@ -1,0 +1,65 @@
+/* Bootstrap + Evoramail global theme */
+@import 'bootstrap/scss/bootstrap';
+
+:root {
+  --violet: #6a5af9;
+  --violet-btn: #7c5cf0;
+  --violet-btn-hover: #6a4ce0;
+  --purple: #a855f7;
+  --pink: #e874a8;
+  --peach: #eac1c6;
+  --clients-bg: #7425f2;
+  --lavender: #ede8fb;
+  --dark: #131313;
+  --gris-2: #181c32;
+  --gris-1: #7e8299;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  font-family: Inter, system-ui, sans-serif;
+  color: var(--gris-2);
+  min-width: 1200px;
+}
+
+a {
+  color: var(--violet-btn);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--violet-btn-hover);
+}
+
+.btn-evora {
+  display: inline-block;
+  background: var(--violet-btn);
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 13px 28px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-evora:hover {
+  background: var(--violet-btn-hover);
+  color: #fff !important;
+}
+
+.btn-evora-light {
+  background: #fff;
+  color: var(--violet-btn) !important;
+}
+
+.btn-evora-light:hover {
+  background: #f3eefb;
+  color: var(--violet-btn-hover) !important;
+}

@@ -1,0 +1,62 @@
+:host {
+  display: block;
+}
+
+.legal {
+  padding: 80px 24px 100px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: var(--gris-2);
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 32px 0 14px;
+  color: var(--gris-2);
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 22px 0 10px;
+  color: var(--gris-2);
+}
+
+p,
+li {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--gris-1);
+  margin-bottom: 12px;
+}
+
+ul,
+ol {
+  padding-left: 1.25rem;
+  margin-bottom: 16px;
+}
+
+a {
+  color: var(--violet-btn);
+  font-weight: 600;
+}
+
+a:hover {
+  color: var(--violet-btn-hover);
+}
+
+.toc {
+  margin: 20px 0 28px;
+}
+
+.muted {
+  font-size: 14px;
+  color: var(--gris-1);
+}
