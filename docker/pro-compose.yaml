@@ -8,6 +8,7 @@ services:
       options:
         awslogs-region: "eu-west-1"
         awslogs-group: "acens/pro01/evoramail"
+        awslogs-create-group: "true"
     deploy:
       resources:
         limits:
