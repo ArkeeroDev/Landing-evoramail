@@ -1,0 +1,24 @@
+services:
+  evoramail:
+    image: evoramail:latest
+    container_name: evoramail
+    restart: always
+    logging:
+      driver: "awslogs"
+      options:
+        awslogs-region: "eu-west-1"
+        awslogs-group: "acens/pro01/evoramail"
+    deploy:
+      resources:
+        limits:
+          memory: 192M
+        reservations:
+          cpus: '0.10'
+          memory: 128M
+    networks:
+      - pro01
+
+networks:
+  pro01:
+    name: pro01
+    driver: bridge
