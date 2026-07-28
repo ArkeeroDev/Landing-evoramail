@@ -19,12 +19,12 @@ const privacy = `<section id="reader" class="legal container">
   <div class="row"><div class="col-12 col-md-10">
   <h1>PRIVACY POLICY</h1>
   ${p('This policy (hereinafter “Privacy Policy” or “Policy”) is effective from December 05, 2023 (“Effective Date”).')}
-  ${p(`The owner of the website <a href="https://arkeero.com" target="_blank" rel="noopener"><strong>https://arkeero.com</strong></a> (hereinafter, the “Website”) is ${COMPANY} (hereinafter, “the Company”, “we” or “us”), a Spanish company, with NIF ${NIF}, and registered office at ${ADDRESS}.`)}
+  ${p(`The owner of this website (hereinafter, the “Website”) is ${COMPANY} (hereinafter, “the Company”, “we” or “us”), a Spanish company, with NIF ${NIF}, and registered office at ${ADDRESS}.`)}
   ${p('In addition, the Company is a registered vendor of the IAB Europe Transparency and Consent Framework (TCF).')}
   ${p('We carry out our activity in the permission-based e-mail marketing sector (advertising campaigns upon prior consent of the recipient). It is mainly dedicated to direct marketing, affiliate marketing and online advertising.')}
   ${p('To contact us for any questions regarding this Privacy Policy, you may write us through the following channels:')}
   <ul>
-    <li>E-mail: ${mail('dpd@arkeero.com')}</li>
+    <li>E-mail: ${mail('dpd@peicloud.com')}</li>
     <li>Address: ${COMPANY}, with domicile at ${ADDRESS}.</li>
   </ul>
   ${p('<strong>The contents of this Privacy Policy are the following:</strong>')}
@@ -137,7 +137,7 @@ const privacy = `<section id="reader" class="legal container">
     <li>Obtain the restriction of the processing of your data when any of the conditions provided in the data protection regulations is met; and</li>
     <li>Data portability.</li>
   </ul>
-  ${p(`To exercise the above-mentioned rights, you may send your request by e-mail at ${mail('dpd@arkeero.com')} or by written communication addressed to ${COMPANY}, ${ADDRESS_SHORT}. Please attach a copy of your identity document for the purpose of proving you are the owner of the data.`)}
+  ${p(`To exercise the above-mentioned rights, you may send your request by e-mail at ${mail('dpd@peicloud.com')} or by written communication addressed to ${COMPANY}, ${ADDRESS_SHORT}. Please attach a copy of your identity document for the purpose of proving you are the owner of the data.`)}
   ${p('If you consider that the Company has infringed, or may have infringed, your rights under the applicable data protection regulations, you may submit a complaint to the relevant Control Authority. In Spain, the Control Authority is the Spanish Data Protection Agency (<a href="https://www.aepd.es" target="_blank" rel="noopener">www.aepd.es</a>), which is located at Calle Jorge Juan, 6, 28001 Madrid (Spain).')}
 
   ${h2('10. COMMERCIAL COMMUNICATIONS')}
@@ -155,7 +155,7 @@ const privacy = `<section id="reader" class="legal container">
   ${h2('13. CONTACT US')}
   ${p('To contact us for any questions regarding this Privacy Policy, you may write us through the following channels:')}
   <ul>
-    <li>E-mail: ${mail('dpd@arkeero.com')}</li>
+    <li>E-mail: ${mail('dpd@peicloud.com')}</li>
     <li>Post: ${COMPANY}, with domicile at ${ADDRESS}.</li>
   </ul>
   </div></div>

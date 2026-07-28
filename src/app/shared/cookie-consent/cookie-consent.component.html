@@ -1,0 +1,69 @@
+@if (visible) {
+<div class="cc-root" role="dialog" aria-modal="true" aria-label="Cookie consent">
+  <div class="cc-panel">
+    @if (!showConfig) {
+    <div class="cc-intro">
+      <div class="cc-text">
+        <h2 class="cc-title">We value your privacy</h2>
+        <p class="cc-desc">
+          We use our own and third-party cookies to run the site, analyze traffic and show
+          relevant content. You can accept them all, reject them, or choose which ones to
+          allow. See our <a routerLink="/politica-de-cookies">Cookie Policy</a> for details.
+        </p>
+      </div>
+      <div class="cc-actions">
+        <button type="button" class="cc-btn cc-btn-config" (click)="openConfig()">Configure</button>
+        <button type="button" class="cc-btn cc-btn-danger" (click)="rejectAll()">Reject</button>
+        <button type="button" class="cc-btn cc-btn-primary" (click)="acceptAll()">Accept</button>
+      </div>
+    </div>
+    } @else {
+    <div class="cc-config">
+      <h2 class="cc-title">Cookie preferences</h2>
+      <p class="cc-desc">
+        Choose which categories of cookies you allow. Non-essential categories are off by
+        default. You can change this at any time.
+      </p>
+
+      <div class="cc-cat">
+        <label class="cc-cat-row">
+          <input type="checkbox" checked disabled />
+          <span class="cc-cat-name">Necessary</span>
+          <span class="cc-badge">Always active</span>
+        </label>
+        <p class="cc-cat-desc">
+          Required for the website to work (navigation, security, saving your cookie choice).
+          These cannot be switched off.
+        </p>
+      </div>
+
+      <div class="cc-cat">
+        <label class="cc-cat-row">
+          <input type="checkbox" [(ngModel)]="analytics" />
+          <span class="cc-cat-name">Analytics</span>
+        </label>
+        <p class="cc-cat-desc">
+          Help us understand how visitors use the site so we can improve it. Anonymous
+          statistics only.
+        </p>
+      </div>
+
+      <div class="cc-cat">
+        <label class="cc-cat-row">
+          <input type="checkbox" [(ngModel)]="marketing" />
+          <span class="cc-cat-name">Marketing</span>
+        </label>
+        <p class="cc-cat-desc">
+          Used to show you relevant advertising and measure advertising campaigns.
+        </p>
+      </div>
+
+      <div class="cc-actions">
+        <button type="button" class="cc-btn cc-btn-danger" (click)="rejectAll()">Reject all</button>
+        <button type="button" class="cc-btn cc-btn-primary" (click)="savePreferences()">Save preferences</button>
+      </div>
+    </div>
+    }
+  </div>
+</div>
+}

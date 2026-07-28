@@ -19,9 +19,8 @@ const terms = `<section id="reader" class="legal container">
   <h1>TERMS AND CONDITIONS</h1>
   ${p('These Terms and Conditions are effective from December 05, 2023 (“Effective Date”).')}
   ${h2('Owner of the website')}
-  ${p(`The owner of the website <a href="https://arkeero.com" target="_blank" rel="noopener"><strong>https://arkeero.com</strong></a> (hereinafter, the “Website”) is ${COMPANY} (hereinafter, “the Company”, “we” or “us”), a Spanish company, with NIF ${NIF}, and registered office at ${ADDRESS}.`)}
+  ${p(`The owner of this website (hereinafter, the “Website”) is ${COMPANY} (hereinafter, “the Company”, “we” or “us”), a Spanish company, with NIF ${NIF}, and registered office at ${ADDRESS}.`)}
   ${p('The Company carries out its activity within the permission-based e-mail marketing sector (advertising campaigns upon prior consent of the recipient). It is mainly dedicated to direct marketing, affiliate marketing and online advertising.')}
-  ${p(`If you have any questions regarding these Terms and Conditions, you may contact us at ${mail('info@arkeero.com')}.`)}
   ${h2('Users of the Website')}
   ${p('By visiting the Website (whether or not you are a registered member) and/or using any related service, you become a user of the Website and therefore you accept and agree to be bound by these Terms and Conditions and any additional terms and conditions appearing on the Website, including any future modifications, and to abide by all applicable laws, rules and regulations. Please read through these Terms and Conditions and any additional terms carefully.')}
   ${p('The Company may modify these Terms and Conditions at any time, and each such modification will be effective upon posting on the Website. Please read the Effective Date at the top of these Terms and Conditions to know when they were last updated. All material modifications will apply prospectively only. Your continued use of the Website and/or our services following any such modification constitutes your acceptance to be bound by these Terms and Conditions as so modified. It is therefore important that you review these Terms and Conditions regularly. If you do not agree to be bound by these Terms and Conditions and to abide by all applicable law, you must discontinue your use of this Website and our services immediately.')}
@@ -49,7 +48,7 @@ const terms = `<section id="reader" class="legal container">
   ${p('You are responsible for maintaining the confidentiality of your password as well as for any use of your account. It is therefore critical that you do not share your password with anyone. You agree not to use the account, username, e-mail address or password of another member or subscriber at any time. You agree to notify the Company immediately if you suspect any unauthorized use of, or access to, your account or password.')}
   ${h2('Termination')}
   ${p('These Terms and Conditions remain in full force and effect while you use the Website and/or any related service.')}
-  ${p(`If you are receiving newsletters from the Company, you may terminate your subscription at any time, for any reason, by following the unsubscribe instructions in the newsletter or by sending your request at ${mail('dpd@arkeero.com')}.`)}
+  ${p(`If you are receiving newsletters from the Company, you may terminate your subscription at any time, for any reason, by following the unsubscribe instructions in the newsletter or by sending your request at ${mail('dpd@peicloud.com')}.`)}
   ${p('The Company may terminate your access to any Company service at any time, for any or no reason, with or without prior notice or explanation, and without liability.')}
   ${p('Furthermore, even after your access to any Company service is terminated, these Terms and Conditions will remain in effect.')}
   ${p('You agree that your account is non-transferable and any rights to your account terminate upon your death.')}
@@ -74,7 +73,6 @@ const terms = `<section id="reader" class="legal container">
   ${p('The failure of the Company to exercise or enforce any right or provision of these Terms and Conditions will not operate as a waiver of such right or provision.')}
   ${p('All Section titles in these Terms and Conditions are for convenience only and have no legal or contractual effect.')}
   ${p('These Terms and Conditions operate to the fullest extent permissible by law. If any provision of these Terms and Conditions is unlawful, void or unenforceable, that provision is deemed severable from these Terms and Conditions and does not affect the validity and enforceability of any remaining provisions.')}
-  ${p(`Please contact us at ${mail('legal1@arkeero.com')} with any questions regarding this these Terms and Conditions.`)}
   ${p('<strong>THROUGH THE USE OF THE WEBSITE YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTAND THIS AGREEMENT AND YOU ACCEPT TO COMPLY WITH ALL ITS PROVISIONS.</strong>')}
   </div></div>
 </section>
@@ -83,7 +81,7 @@ const terms = `<section id="reader" class="legal container">
 const cookies = `<section id="reader" class="legal container">
   <div class="row"><div class="col-12 col-md-10">
   <h1>COOKIE POLICY</h1>
-  ${p('This site uses cookies and similar technologies to bring you the best experience, faster and safer. In this Policy we explain you what are these technologies, what are they used for (for example, to start a navigation session, to save your preferences, to personalize the diffused contents and to show you the most appropriate advertisements) and by whom. Following we will explain how we and our partners and third parties make use of these technologies. If you want to sign up, please also check our Privacy Policy, including its cookies part at <a href="https://arkeero.com/privacy/" target="_blank" rel="noopener">https://arkeero.com/privacy/</a>.')}
+  ${p('This site uses cookies and similar technologies to bring you the best experience, faster and safer. In this Policy we explain you what are these technologies, what are they used for (for example, to start a navigation session, to save your preferences, to personalize the diffused contents and to show you the most appropriate advertisements) and by whom. Following we will explain how we and our partners and third parties make use of these technologies. If you want to sign up, please also check our <a routerLink="/politica-de-privacidad">Privacy Policy</a>, including its cookies part.')}
   ${h2('What are cookies?')}
   ${p('Cookies are devices that are sent to your browser and are installed in the terminal from where you navigate with the purpose of storing information that could be recovered afterwards. These technologies are essential for the correct functioning, integration, availability and appropriateness of the contents of this Website, and they provide important advantages in the provision of the services, facilitating the navigation and usability. Cookies can’t read information stored in any device. They can’t harm or alter your device either.')}
   ${h2('For what purposes do we collect information through cookies?')}
