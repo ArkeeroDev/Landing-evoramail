@@ -24,7 +24,7 @@ const privacy = `<section id="reader" class="legal container">
   ${p('We carry out our activity in the permission-based e-mail marketing sector (advertising campaigns upon prior consent of the recipient). It is mainly dedicated to direct marketing, affiliate marketing and online advertising.')}
   ${p('To contact us for any questions regarding this Privacy Policy, you may write us through the following channels:')}
   <ul>
-    <li>E-mail: ${mail('dpd@peicloud.com')}</li>
+    <li>E-mail: ${mail('dpd@evoramail.com')}</li>
     <li>Address: ${COMPANY}, with domicile at ${ADDRESS}.</li>
   </ul>
   ${p('<strong>The contents of this Privacy Policy are the following:</strong>')}
@@ -137,7 +137,7 @@ const privacy = `<section id="reader" class="legal container">
     <li>Obtain the restriction of the processing of your data when any of the conditions provided in the data protection regulations is met; and</li>
     <li>Data portability.</li>
   </ul>
-  ${p(`To exercise the above-mentioned rights, you may send your request by e-mail at ${mail('dpd@peicloud.com')} or by written communication addressed to ${COMPANY}, ${ADDRESS_SHORT}. Please attach a copy of your identity document for the purpose of proving you are the owner of the data.`)}
+  ${p(`To exercise the above-mentioned rights, you may send your request by e-mail at ${mail('dpd@evoramail.com')} or by written communication addressed to ${COMPANY}, ${ADDRESS_SHORT}. Please attach a copy of your identity document for the purpose of proving you are the owner of the data.`)}
   ${p('If you consider that the Company has infringed, or may have infringed, your rights under the applicable data protection regulations, you may submit a complaint to the relevant Control Authority. In Spain, the Control Authority is the Spanish Data Protection Agency (<a href="https://www.aepd.es" target="_blank" rel="noopener">www.aepd.es</a>), which is located at Calle Jorge Juan, 6, 28001 Madrid (Spain).')}
 
   ${h2('10. COMMERCIAL COMMUNICATIONS')}
@@ -155,7 +155,7 @@ const privacy = `<section id="reader" class="legal container">
   ${h2('13. CONTACT US')}
   ${p('To contact us for any questions regarding this Privacy Policy, you may write us through the following channels:')}
   <ul>
-    <li>E-mail: ${mail('dpd@peicloud.com')}</li>
+    <li>E-mail: ${mail('dpd@evoramail.com')}</li>
     <li>Post: ${COMPANY}, with domicile at ${ADDRESS}.</li>
   </ul>
   </div></div>

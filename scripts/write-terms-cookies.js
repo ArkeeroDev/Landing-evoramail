@@ -48,7 +48,7 @@ const terms = `<section id="reader" class="legal container">
   ${p('You are responsible for maintaining the confidentiality of your password as well as for any use of your account. It is therefore critical that you do not share your password with anyone. You agree not to use the account, username, e-mail address or password of another member or subscriber at any time. You agree to notify the Company immediately if you suspect any unauthorized use of, or access to, your account or password.')}
   ${h2('Termination')}
   ${p('These Terms and Conditions remain in full force and effect while you use the Website and/or any related service.')}
-  ${p(`If you are receiving newsletters from the Company, you may terminate your subscription at any time, for any reason, by following the unsubscribe instructions in the newsletter or by sending your request at ${mail('dpd@peicloud.com')}.`)}
+  ${p(`If you are receiving newsletters from the Company, you may terminate your subscription at any time, for any reason, by following the unsubscribe instructions in the newsletter or by sending your request at ${mail('dpd@evoramail.com')}.`)}
   ${p('The Company may terminate your access to any Company service at any time, for any or no reason, with or without prior notice or explanation, and without liability.')}
   ${p('Furthermore, even after your access to any Company service is terminated, these Terms and Conditions will remain in effect.')}
   ${p('You agree that your account is non-transferable and any rights to your account terminate upon your death.')}
